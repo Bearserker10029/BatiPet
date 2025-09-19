@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Gestor_usuario {
+public class Gestor {
     private ArrayList<Agregar_mascota> listamascotas = new ArrayList<>();
     private ArrayList<Registrar_cliente> listaclientes = new ArrayList<>();
 

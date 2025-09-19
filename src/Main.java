@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 
 public class Main {
     public static void main(String[] args) {
-        Gestor_usuario gestor = new Gestor_usuario();
+        Gestor gestor = new Gestor();
         Adoptar_mascota adoptar_mascota = new Adoptar_mascota();
         Scanner input = new Scanner(System.in);
         int choice = 0;

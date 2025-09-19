@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Adoptar_mascota extends Gestor_usuario{
+public class Adoptar_mascota extends Gestor {
     public void AdoptarMascota() {
         Scanner sc = new Scanner(System.in);
         try {
