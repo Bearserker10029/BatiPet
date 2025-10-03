@@ -12,7 +12,6 @@ public class Registrar_cliente {
     private String telefono;
     private ArrayList<Agregar_mascota> mascotas;
 
-
     public Registrar_cliente() {
         this.ID = nextId++;
         this.mascotas = new ArrayList<>();
@@ -62,7 +61,7 @@ public class Registrar_cliente {
         return mascotas;
     }
 
-    public static Registrar_cliente registrar(){
+    public static Registrar_cliente registrar() {
         Scanner sc = new Scanner(System.in);
         Registrar_cliente cliente = new Registrar_cliente();
         System.out.print("Nombre: ");
@@ -76,7 +75,7 @@ public class Registrar_cliente {
         return cliente;
     }
 
-    public void Imprimir_cliente(){
+    public void Imprimir_cliente() {
         System.out.println("--------------------");
         System.out.println("ID: " + ID);
         System.out.println("Nombre: " + nombre);
